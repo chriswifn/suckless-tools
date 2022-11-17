@@ -1,0 +1,5 @@
+#+TITLE: Suckless tools
+#+AUTHOR: Christian Hageloch
+
+This repository has my configuration of dmenu, st and dwm.
+Clone the source code from suckless directly and apply the corresponding patch.

@@ -1,0 +1,15 @@
+#+TITLE: St configuration
+#+AUTHOR: Christian Hageloch
+
+** Patches
+- boxdraw:      better boxdrawing
+- colorschemes: different color schemes with a keybinding
+- externalpipe: laying down pipes like a unix chad
+- font2:        have some more fonts (emoji-font mainly)
+- scrollback:   sometimes you want to scroll back in your terminal
+
+** Installation
+- Install st: git clone https://git.suckless.org/st
+- make a config branch: git branch config
+- switch to config branch: git checkout config
+- apply patch: git apply config.diff (or patch -p1 < config.diff)

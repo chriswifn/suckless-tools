@@ -1,0 +1,13 @@
+#+TITLE: Dwm configuration
+#+AUTHOR: Christian Hageloch
+
+** Patches
+- center:      centers floating windows
+- noborder:    removes border around single client
+- switchtotag: switches to tag (useful for window rules) 
+
+** Installation
+- Install dwm: git clone https://git.suckless.org/dwm
+- make a config branch: git branch config
+- switch to config branch: git checkout config
+- apply patch: git apply config.diff (or patch -p1 < config.diff)

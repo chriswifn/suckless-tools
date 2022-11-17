@@ -1,0 +1,14 @@
+#+TITLE: Dmenu configuration
+#+AUTHOR: Christian Hageloch
+
+** Patches
+- border:       if dmenu is centered a border is useful
+- center:       option to center dmenu
+- listfullwith: the list after the prompt takes up the full width
+
+** Installation
+- Install dmenu: git clone https://git.suckless.org/dmenu
+- make a config branch: git branch config
+- switch to config branch: git checkout config
+- apply patch: git apply config.diff (or patch -p1 < config.diff)
+  
