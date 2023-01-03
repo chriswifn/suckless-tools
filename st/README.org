@@ -3,10 +3,9 @@
 
 ** Patches
 - boxdraw:      better boxdrawing
-- colorschemes: different color schemes with a keybinding
+- xresources:   with restart signal
 - externalpipe: laying down pipes like a unix chad
 - font2:        have some more fonts (emoji-font mainly)
-- scrollback:   sometimes you want to scroll back in your terminal
 
 ** Installation
 - Install st: git clone https://git.suckless.org/st
