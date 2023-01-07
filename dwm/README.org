@@ -2,9 +2,8 @@
 #+AUTHOR: Christian Hageloch
 
 ** Patches
-- center:      centers floating windows
-- noborder:    removes border around single client
-- switchtotag: switches to tag (useful for window rules) 
+- pertag: Separate tags with separate layouts 
+- xrdb:   Read colors from xresources file
 
 ** Installation
 - Install dwm: git clone https://git.suckless.org/dwm
